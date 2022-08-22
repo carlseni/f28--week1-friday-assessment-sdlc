@@ -17,6 +17,7 @@ var gitDefinition = "Git is a free open source version control system. in other 
     It should be a string containing your best definition of what GitHub is.
 */
 var gitHubDefinition = "GitHub is a hosting service for code files using Git."
+console.log (gitHubDefinition)
 //CODE HERE
 
 //////////////////PROBLEM 3////////////////////
@@ -27,6 +28,7 @@ var gitHubDefinition = "GitHub is a hosting service for code files using Git."
 
 //CODE HERE
 var gitInitDefinition = "GitInit creates a new repository."
+console.log(gitInitDefinition)
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -55,7 +57,7 @@ var gitStatusDefinition = "shows the sataus of the working directory and the sta
 
 //CODE HERE
 var gitAddDefinition = "Adds new or changed files to working directory to Git staging area"
-var gitAddCode = "gitAdd ~"
+var gitAddCode = ("gitAdd .")
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -67,8 +69,8 @@ var gitAddCode = "gitAdd ~"
 */
 
 //CODE HERE
-
-
+var gitCommitDefinition = 'It is basicically the save command to your ypur local repo.'
+var gitCommitCode = ("git commit -m 'initial commit'")
 //////////////////PROBLEM 8////////////////////
 /*
     Create a variable called 'gitPushDefinition'.  
@@ -76,4 +78,6 @@ var gitAddCode = "gitAdd ~"
 */
 
 //CODE HERE
+var gitPushDefinition= "git push uploads my local code repo to the remote one on github."
+
 console.log("git info1")

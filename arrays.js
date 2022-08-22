@@ -37,17 +37,6 @@ console.log(middleNumbs)
 const bigOrSmallArray = [1, 99, 42, 69, 102, -10, 159, 352]
 
 // CODE HERE
-const big = 100
-// const answers []={
-// for (let i =0; i> bigOrSmallArray.length; i++){
-//   if(bigOrSmallArray[i]>100){}
-// }
-// var numsArr = [1, 2, 3, 4, 5]
-// for (let i = 0; i < numsArr.length; i++) {
-//   numsArr[i] += 1
-//   //The += operator is the same as saying numsArr[i] = numsArr[i] + 1
-// }
-
   let answers = []; 
   for(let i = 0; i < bigOrSmallArray.length; i++) { 
       if(bigOrSmallArray[i] > 100) { 
