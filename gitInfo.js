@@ -10,13 +10,13 @@
 */
 
 //CODE HERE
-
+var gitDefinition = "Git is a free open source version control system. in other words a free way for someone or a team to track code files."
 //////////////////PROBLEM 2////////////////////
 /*
     Create a variable called 'gitHubDefinition'.  
     It should be a string containing your best definition of what GitHub is.
 */
-
+var gitHubDefinition = "GitHub is a hosting service for code files using Git."
 //CODE HERE
 
 //////////////////PROBLEM 3////////////////////
@@ -26,7 +26,7 @@
 */
 
 //CODE HERE
-
+var gitInitDefinition = "GitInit creates a new repository."
 //////////////////PROBLEM 4////////////////////
 /*
     Create a variable called 'gitCloneDefinition'.  
@@ -34,6 +34,7 @@
 */
 
 //CODE HERE
+var gitCloneDefinition = "GitClone creates an identical copy of an exsisting Git respository(everythinng in that repo)."
 
 //////////////////PROBLEM 5////////////////////
 /*
@@ -42,7 +43,7 @@
 */
 
 //CODE HERE
-
+var gitStatusDefinition = "shows the sataus of the working directory and the staging area. It doesn't change anything and only shows things like tracked files."
 //////////////////PROBLEM 6////////////////////
 /*
     Create a variable called 'gitAddDefinition'.  
@@ -53,6 +54,8 @@
 */
 
 //CODE HERE
+var gitAddDefinition = "Adds new or changed files to working directory to Git staging area"
+var gitAddCode = "gitAdd ~"
 
 //////////////////PROBLEM 7////////////////////
 /*
@@ -73,3 +76,4 @@
 */
 
 //CODE HERE
+console.log("git info1")
