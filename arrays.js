@@ -22,7 +22,7 @@ console.log(faveColors)
 const numbers = [1, 2, 3, 4, 5]
 
 //CODE HERE
-middleNumbs = numbers.slice(1, 4)
+middleNumbs = numbers.slice(1, 3)
 console.log(middleNumbs)
 //////////////////PROBLEM 4////////////////////
 /* 
